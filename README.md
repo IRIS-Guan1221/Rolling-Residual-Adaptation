@@ -161,5 +161,5 @@ invariance, feature bounds, cache binding, and input validation using synthetic 
 See `THIRD_PARTY.md` for the underlying methods and `CITATION.cff` for the software
 citation. Chronos-2 and LightGBM retain their original attribution and licenses.
 
-Contact: Jing Guan, Hangzhou Yuanxiang Wansheng Technology Co., Ltd.,
+Contact: Jing Guan, Hangzhou MetaGenesis Technology Co., Ltd.,
 guanjing@biumdigits.com.
