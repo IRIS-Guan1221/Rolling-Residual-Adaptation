@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software when using the RRA implementation."
+title: "Rolling Residual Adaptation of Pretrained Forecasts for Short-History Sales Prediction"
+type: software
+authors:
+  - family-names: Guan
+    given-names: Jing
+    affiliation: "Hangzhou Yuanxiang Wansheng Technology Co., Ltd."
+version: 1.0.0
+date-released: 2026-09-19

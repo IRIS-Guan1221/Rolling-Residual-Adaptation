@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68,<82", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rra-sales"
+version = "1.0.0"
+description = "Rolling Residual Adaptation of pretrained daily sales forecasts"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+authors = [{name = "Jing Guan", email = "guanjing@biumdigits.com"}]
+dependencies = [
+  "numpy==2.0.2",
+  "pandas==2.3.3",
+  "scipy==1.13.1",
+  "scikit-learn==1.6.1",
+  "lightgbm==4.6.0",
+  "threadpoolctl==3.6.0",
+]
+
+[project.optional-dependencies]
+chronos = ["chronos-forecasting==2.3.2", "torch==2.12.1"]
+
+[project.scripts]
+rra-sales = "rra_sales.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

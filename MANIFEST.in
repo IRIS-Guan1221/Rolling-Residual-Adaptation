@@ -1,0 +1,2 @@
+include README.md THIRD_PARTY.md CITATION.cff requirements.txt
+recursive-include tests *.py
